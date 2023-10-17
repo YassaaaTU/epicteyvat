@@ -1,11 +1,11 @@
-name: Bug Report
-description: Report an issue with the a modpack.
+name: Suggestion
+description: Suggestion
 body:
   - type: dropdown
     id: ftb-modpack-dropdown
     attributes:
       label: Modpack
-      description: What modpack are you having an issue with?
+      description: What modpack is your suggestion for?
       multiple: false
       options:
         - FTB Presents Direwolf20 1.20
@@ -87,60 +87,18 @@ body:
         - Other...
     validations:
       required: true
-  - type: input
-    id: version
-    attributes:
-      label: Modpack version
-      placeholder: ex. 1.1.0
-    validations:
-      required: true
   - type: textarea
-    id: logs
+    id: problem
     attributes:
-      label: Log Files
-      description: Link(s) to any log files that may help debug your issue
-      placeholder: https://pste.ch/dotedubine
-    validations:
-      required: false
+      label: Is your suggestion related to a problem? Please describe.
+      description: A clear and concise description of what the problem is.
+      placeholder: Ex. I'm always frustrated when [...]
   - type: textarea
-    id: bugdesc
+    id: mod
     attributes:
-      label: Describe the bug
-      description: |
-        A clear and concise description of what the bug is
-    validations:
-      required: true
-  - type: textarea
-    id: reproduce
-    attributes:
-      label: Steps to reproduce
-      description: Tell us how we can reproduce the issue
-      placeholder: |
-        1. Go to ...
-        2. Click on ...
-        3. Scroll down to ...
-        4. See error
-    validations:
-      required: true
-  - type: input
-    id: expectedBehaviour
-    attributes:
-      label: Expected behaviour
-      description: |
-        A clear and concise description of what you expected to happen.
-    validations:
-      required: true
-  - type: textarea
-    id: screenshots
-    attributes:
-      label: Screenshots
-      description: If applicable, add screenshots to help explain your problem.
-    validations:
-      required: false
-  - type: textarea
-    id: additional
-    attributes:
-      label: Additional information
-      description: Add any other context about the problem here
-    validations:
-      required: false
+      label: Mod suggestion
+      description: Link to mod and describe why you would like to see the mod in the pack?
+      placeholder: >
+        Link to mod:
+
+        A clear and concise description of what the mod what add and why you would like it in the pack.
