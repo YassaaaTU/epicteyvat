@@ -12,8 +12,8 @@ body:
     id: logs
     attributes:
       label: Log Files
-      description: Link(s) to any log files that may help debug your issue. https://pste.ch/ or https://mclo.gs/
-      placeholder: https://pste.ch/dotedubine
+      description: Link(s) to any log files that may help debug your issue. Use https://mclo.gs/
+      placeholder: https://mclo.gs/...
     validations:
       required: false
   - type: textarea
