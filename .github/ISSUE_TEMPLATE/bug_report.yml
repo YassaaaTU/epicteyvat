@@ -1,6 +1,6 @@
 name: Bug Report
 description: Report a bug with the mod. If this doesn't look right, choose a different type.
-title: ""
+title: " "
 labels: ["bug", "unverified"]
 assignees:
   - YassaaaTU
