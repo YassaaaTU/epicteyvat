@@ -1,6 +1,10 @@
 package com.yassaaa.epicteyvat;
 
 import com.mojang.logging.LogUtils;
+import com.yassaaa.epicteyvat.block.ModBlocks;
+import com.yassaaa.epicteyvat.item.ModCreativeModeTabs;
+import com.yassaaa.epicteyvat.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -28,6 +32,11 @@ public class EpicTeyvat
     public EpicTeyvat()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
