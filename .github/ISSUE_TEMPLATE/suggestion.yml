@@ -1,8 +1,7 @@
 name: Suggestion
 description: Suggestion
-labels:
-  - unverified
-  - suggestion
+title: "[Suggestion]: "
+labels: ["Unverified"]
 body:
   - type: textarea
     id: problem
