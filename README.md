@@ -1,7 +1,4 @@
 # Epic Teyvat
-
-### Adds some weapons of Teyvat
-
 ---
 
 [![CodeFactor](https://www.codefactor.io/repository/github/yassaaatu/epicteyvat/badge)](https://www.codefactor.io/repository/github/yassaaatu/epicteyvat)
