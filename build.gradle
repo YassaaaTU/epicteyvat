@@ -195,23 +195,10 @@ publishing {
         register('mavenJava', MavenPublication) {
             artifact jar
         }
-        gpr(MavenPublication) {
-            groupId = mod_group_id
-            artifactId = archivesBaseName
-            version = mod_version
-        }
     }
     repositories {
         maven {
             url "file://${project.projectDir}/mcmodsrepo"
-        }
-        maven {
-            name = "GitHubPackages"
-            url = "https://maven.pkg.github.com/YassaaaTU/epicteyvat"
-            credentials {
-                username = System.getenv("GITHUB_ACTOR")
-                password = System.getenv("GITHUB_TOKEN")
-            }
         }
     }
 }
