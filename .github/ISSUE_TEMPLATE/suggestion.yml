@@ -1,5 +1,8 @@
 name: Suggestion
 description: Suggestion
+labels:
+  - unverified
+  - suggestion
 body:
   - type: textarea
     id: problem
