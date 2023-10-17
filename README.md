@@ -2,6 +2,10 @@
 
 [![CodeFactor](https://www.codefactor.io/repository/github/yassaaatu/epicteyvat/badge)](https://www.codefactor.io/repository/github/yassaaatu/epicteyvat)
 
+> [!Warning]
+> This is still W.I.P and is not finished at all.
+> When it's ready there will be a release on CurseForge and Modrinth.
+
 Epic Teyvat adds some weapons of teyvat.\
 If Epic Fight Mod is installed it will be compatible with custom fighting animation for each weapon type.
 
