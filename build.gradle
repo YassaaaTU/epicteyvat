@@ -208,7 +208,7 @@ publishing {
         }
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/yassaaatu/epicteyvat")
+            url = "https://maven.pkg.github.com/YassaaaTU/epicteyvat"
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")
